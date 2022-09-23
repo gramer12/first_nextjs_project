@@ -1,6 +1,7 @@
 const _id = "ksw";
 const _pw = "1234";
 export default function handler(req, res) {
+  console.log("방금내가 찍은것");
   console.log(req.body);
   const { id, pw } = req.body;
 
